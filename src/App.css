@@ -7,7 +7,12 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   z-index: -1;
   pointer-events: none;
+}
+
+@media (min-width: 768px) {
+  .fixed-background {
+    background-attachment: fixed;
+  }
 }
