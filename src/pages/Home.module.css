@@ -23,6 +23,24 @@
   margin-bottom: 0.5rem;
 }
 
+.titleLine {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .titleLine {
+    display: inline;
+  }
+  
+  .titleLine:nth-child(1)::after {
+    content: ' ';
+  }
+  
+  .titleLine:nth-child(2)::after {
+    content: ' ';
+  }
+}
+
 .subtitle {
   font-size: clamp(1.2rem, 4vw, 2rem);
   font-style: italic;
@@ -100,6 +118,10 @@
 
 .rsvpButton {
   margin-top: 1rem;
+}
+
+.rsvpButton:hover {
+  background-color: gray !important;
 }
 
 .registrySection {
