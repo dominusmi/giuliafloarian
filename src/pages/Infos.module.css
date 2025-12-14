@@ -1,0 +1,21 @@
+.container {
+  padding: 4rem 2rem;
+  min-height: 80vh;
+}
+
+.title {
+  font-size: clamp(2rem, 5vw, 3rem);
+  text-align: center;
+  margin-bottom: 2rem;
+  letter-spacing: 0.1em;
+}
+
+.section {
+  width: 100%;
+  max-width: 700px;
+}
+
+.icon {
+  margin-top: 0.25rem;
+}
+

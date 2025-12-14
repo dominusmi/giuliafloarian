@@ -1,0 +1,123 @@
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  padding: 4rem 2rem;
+  padding-top: 6rem;
+  background: transparent;
+}
+
+.heroContent {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: white;
+}
+
+.mainTitle {
+  font-size: clamp(2.5rem, 8vw, 5rem);
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-size: clamp(1.2rem, 4vw, 2rem);
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.bannerSection {
+  padding: 4rem 2rem;
+  background: rgba(248, 215, 218, 0.9);
+}
+
+.bannerTitle {
+  font-size: clamp(1.5rem, 5vw, 3rem);
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  color: #721c24;
+}
+
+.bannerText {
+  font-size: clamp(1rem, 3vw, 1.3rem);
+  line-height: 1.8;
+  max-width: 600px;
+  color: #721c24;
+  text-align: center;
+}
+
+.coupleSection {
+  padding: 4rem 2rem;
+  background: rgba(255, 255, 255, 0.9);
+  margin-top: -4rem;
+  position: relative;
+  z-index: 1;
+}
+
+.coupleImage {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  margin-top: -6rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 2;
+}
+
+.infoSection {
+  padding: 4rem 2rem;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.infoTitle {
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  letter-spacing: 0.1em;
+  line-height: 1.3;
+}
+
+.rsvpSection {
+  padding: 4rem 2rem;
+  background: rgba(248, 215, 218, 0.9);
+}
+
+.rsvpTitle {
+  font-size: clamp(2rem, 5vw, 3rem);
+  color: #721c24;
+}
+
+.rsvpText {
+  font-size: clamp(1rem, 3vw, 1.2rem);
+  line-height: 1.8;
+  max-width: 600px;
+  color: #721c24;
+}
+
+.rsvpButton {
+  margin-top: 1rem;
+}
+
+.registrySection {
+  padding: 4rem 2rem;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.registryTitle {
+  font-size: clamp(2rem, 5vw, 3rem);
+}
+
+.registryText {
+  font-size: clamp(1rem, 3vw, 1.2rem);
+  line-height: 1.8;
+  max-width: 600px;
+}
+
+.faqSection {
+  padding: 4rem 2rem;
+  background: rgba(248, 249, 250, 0.9);
+}
